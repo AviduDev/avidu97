@@ -1,6 +1,6 @@
 <header class="menuContainer">
 	<nav class="menu">
-		<a href="/">Work</a>
+		<a href="/projects">Work</a>
 		<a href="/">About</a>
 		<a href="/">Contact</a>
 	</nav>
