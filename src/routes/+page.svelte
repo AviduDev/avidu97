@@ -1,4 +1,6 @@
-<script></script>
+<script>
+	import Contact from '../lib/components/Contact.svelte';
+</script>
 
 <!-- -------------------HEAD-------------------------- -->
 <head>
@@ -108,16 +110,23 @@
 					<h3 class="processTxt">initial discussion</h3>
 				</div>
 				<div class="processDes">
-					<p class="processDesTxt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, porro.</p>
+					<p class="processDesTxt">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, porro.
+					</p>
 					<p class="processDesRgt">FREE</p>
 				</div>
 			</div>
 		</div>
 	</section>
-</main>
-<!-- -------------------TEST-------------------------- -->
-<section class="sec2" />
 
+	<!-- -------------------contact-------------------------- -->
+
+	<section class="contactSection">
+		<Contact />
+	</section>
+</main>
+
+<!-- -------------------TEST-------------------------- -->
 <style>
 	/* ---------------------hero----------------- */
 	.heroSection {
@@ -235,12 +244,14 @@
 
 	.processContainer {
 		border-radius: 2vw;
-		background-color: #FFDBEA;
+		background-color: #ffdbea;
+		padding: 2vw 1vw 2vw 1vw;
+		margin: 5vw 1vw 5vw 1vw;
 	}
 	.process {
 		display: flex;
 		flex-direction: column;
-		color: #BD004F;
+		color: #bd004f;
 	}
 
 	.processTtl {
@@ -260,5 +271,10 @@
 
 	.processDesRgt {
 		align-self: flex-end;
+	}
+
+	/* --------------------cotact------------------ */
+	.contactSection {
+		margin: 5vw 1vw 5vw 1vw;
 	}
 </style>
