@@ -35,6 +35,10 @@
 </main>
 
 <style>
+
+	main {
+		background-color: #fffeda;
+	}
 	.projectTitle {
 		font-size: 5vw;
 	}
