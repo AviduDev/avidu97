@@ -34,3 +34,30 @@ export const projectQuery = gql`
 		}
 	}
 `;
+
+export const firstProjects = gql`
+query MyQuery {
+	projects(first: 3) {
+	  collaboration
+	  company
+	  demoUrl
+	  description
+	  design
+	  id
+	  liveSite
+	  mainImage {
+		url
+		updatedAt
+	  }
+	  publishedAt
+	  slug
+	  sourceUrl
+	  tags
+	  title
+	  year
+	  updatedAt
+	}
+  }
+  
+`;
+

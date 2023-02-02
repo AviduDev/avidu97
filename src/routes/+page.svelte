@@ -1,5 +1,8 @@
 <script>
 	import Contact from '../lib/components/Contact.svelte';
+
+	export let data;
+	let { Mainprojects } = data;
 </script>
 
 <!-- -------------------HEAD-------------------------- -->
